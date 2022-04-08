@@ -13,7 +13,7 @@ const About = () => {
                 <div className="row row-value">
                     <div className="col-sm-5 offset-sm-1">
                         <p className="text-justify">
-                            Hello, my name is Ahmad Robi. I was born in Sidoarjo, 21 November 1996. I live on Dsn.
+                            Hello, my name is Ahmad Robi. I was born in Sidoarjo, 05 June 1988. I live on Dsn.
                             Babadan RT.16 RW.04 Ds. Junwangi Kec. Krian. Sidoarjo - East Java. My nationality is
                             Indonesian.
                         </p>
