@@ -1,0 +1,70 @@
+.timelines {
+  background-color: #96a9c5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+}
+
+.timelines .title {
+  font-size: 0.15em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.timelines h3 {
+  padding-top: 0.25em;
+}
+
+.timelines .vertical-timeline-element-content {
+  box-shadow: 0 0.25 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.timelines .vertical-timeline-element-date {
+  color: rgba(201, 251, 255);
+}
+
+.timelines #description {
+  margin: 1.5em 0 2em 0;
+}
+
+.timelines .button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.timelines .workButton {
+  background-color: #06d6a0;
+}
+
+.timelines .workButton:hover {
+  background-color: #0ac593;
+}
+
+.timelines .schoolButton {
+  background-color: #f9c74f;
+}
+
+.timelines .schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+.timelines .certificateButton {
+  background-color: #0074d9;
+}
+
+.timelines .certificateButton:hover {
+  background-color: #0289ff;
+}
+
+@media only screen and (max-width: 1700px) {
+  .timelines .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
